@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: user
+management:
+  health:
+    redis:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+server:
+  port: 8080
+
